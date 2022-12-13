@@ -17,7 +17,7 @@ external-secrets-operator to get Secret from multiple secret manager tools
     ```
 - Now create a externl secret to get the secret 
     ```
-    kubectl apply -f hashicrop-vault/approle/secretstore.yaml    
+    kubectl apply -f hashicrop-vault/approle/external-secret.yaml  
     ```
 - Output should be following 
     ```

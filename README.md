@@ -8,7 +8,7 @@ external-secrets-operator to get Secret from multiple secret manager tools
     external-secrets/external-secrets \
         -n external-secrets \
         --create-namespace \
-    # --set installCRDs=true
+        --set installCRDs=true
     ```
 - Create App role for Vault using [Vaule App Role](https://github.com/tiwarisanjay/argocd-everything/blob/main/argocd-ha-vault-sso/README.md)
 - Create a secret by update your secret id in vault-secret.yaml file. 
